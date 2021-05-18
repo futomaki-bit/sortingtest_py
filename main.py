@@ -22,7 +22,6 @@ funcList = [
     ["timsort", timSort],
 ]
 
-print("here")
 for f in funcList:
     temparray = array.copy()
     start_time = time.time()
