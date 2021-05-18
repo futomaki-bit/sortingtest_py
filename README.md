@@ -2,11 +2,12 @@
 
 Output example:
 ```
-binaryinsertionsort 1.154447078704834
-bubblesort 6.518095970153809
-heapsort 0.09809136390686035
-mergesort 0.08002638816833496
-timsort 0.06814336776733398
+sorted() 0.007340192794799805
+binaryinsertionsort 1.2155025005340576
+bubblesort 7.082536935806274
+heapsort 0.09598112106323242
+mergesort 0.06865358352661133
+timsort 0.06598663330078125
 ```
 
 Thanks to [GeeksforGeeks](https://www.geeksforgeeks.org/) for the sorting algorithms.
@@ -18,3 +19,5 @@ Goals:
 - Testing time complexity theories
 - Comparing with built-in function
 
+Opinion:
+- The built-in function is great
