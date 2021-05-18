@@ -2,10 +2,11 @@
 
 Output example:
 ```
-sorted() 0.004975318908691406
-Heapsort 0.002554178237915039
-Mergesort 0.008394002914428711
-Timsort 0.009630203247070312
+binaryinsertionsort 1.154447078704834
+bubblesort 6.518095970153809
+heapsort 0.09809136390686035
+mergesort 0.08002638816833496
+timsort 0.06814336776733398
 ```
 
 Thanks to [GeeksforGeeks](https://www.geeksforgeeks.org/) for the sorting algorithms.
