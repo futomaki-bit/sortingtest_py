@@ -27,4 +27,4 @@ for f in funcList:
     start_time = time.time()
     time.sleep(1)
     f[1](array)
-    print(f[0], (time.time() - start_time - 1))
+    print('{:<20}  {:<}'.format(f[0], (time.time() - start_time - 1)))
