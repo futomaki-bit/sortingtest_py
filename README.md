@@ -17,7 +17,7 @@ timsort               0.05826759338378906
 <br>
 
 **Issue:**
-- Quicksort is crashes often, was removed.
+- Quicksort crashes often, was removed.
 
 **Goals:**
 - Testing time complexity theories
