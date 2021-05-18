@@ -14,6 +14,7 @@ array = random.sample(range(0, 10000), 10000)
 # ["quicksort",quick_sort(array)]
 
 funcList = [
+    ["sorted()", sorted],
     ["binaryinsertionsort", binary_insertion_sort],
     ["bubblesort", bubbleSort],
     ["heapsort", heapSort],
