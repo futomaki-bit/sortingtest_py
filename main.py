@@ -10,18 +10,20 @@ from geeksforgeeks.timsort import *
 import time
 import random
 
+# create "array" of 10000 items with item ranging from 0 to 10000
 array = random.sample(range(0, 10000), 10000)
 # quicksort breaks with this
 # ["quicksort",quick_sort(array)]
 
-# Edit list here
+# Edit list here, list of sorting algorithm to use
+# FORMAT : ["string/name", function without parentheses],
 funcList = [
     ["sorted()", sorted],
     ["binaryinsertionsort", binary_insertion_sort],
     ["bubblesort", bubbleSort],
     ["heapsort", heapSort],
     ["mergesort", mergeSort],
-    ["timsort", timSort],
+    ["timsort", timSort]
 ]
 
 # driver to run all the algorithms in the list with the same array
